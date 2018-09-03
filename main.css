@@ -1,0 +1,28 @@
+body{
+display: flex;
+flex-direction: column;
+align-content: center;
+align-items: center;
+justify-content: center;    
+}
+section{
+    width: 300px;
+    height:auto;
+    background-color: beige;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* input{
+    display: flex;
+    align-self: center;
+    
+}
+
+button{
+    margin: 0px 37px;
+} */

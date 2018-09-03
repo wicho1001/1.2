@@ -2,10 +2,10 @@ let valor = [];
 let a = 0;
 let b = 0;
 let c = 0;
-chicharronero = () => {
-    let operacion =  -b +- (Math.sqrt(b** - 4*a*c))/2*a
-    return operacion
-    
+Math.sign = chicharronero = () => {
+    let operacion =  (-b -(Math.sqrt(b** - 4*a*c)))/2*a
+    // let operacion2 =  (-b + (Math.sqrt(b** - 4*a*c)))/2*a
+    return operacion  
 }
 let button = document.querySelector('#boton').addEventListener('click',()=>{
 
