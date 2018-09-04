@@ -8,7 +8,7 @@ let c = 0;
 chicharronero = () => {
     let d = (Math.pow(b,2) - 4*a*c);
     let operacion = (-b + Math.sqrt(d))/2*a
-    if(operacion == NaN){
+    if(d <= -1){
         return alert("la raices negativas no tienen indeterminacion")
     }else{
         return operacion  
@@ -19,7 +19,7 @@ chicharronero = () => {
 chicharronero2 = () => {
     let d = (Math.pow(b,2) - 4*a*c);
     let operacion2 = (b - Math.sqrt(d))/2*a
-    if(chicharronero2 === isNaN){
+    if(d <= -1){
         return alert("la raices negativas no tienen indeterminacion")
     }else{
         return operacion2  
