@@ -1,3 +1,5 @@
+// Inicio del ejercicio 
+
 let valor = [];
 let a = 0;
 let b = 0;
